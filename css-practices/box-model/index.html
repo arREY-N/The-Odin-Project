@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        div{
+            outline: red 2px solid;
+            text-align: center;
+            padding: 10%;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .main div{  
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        top bar
+    </div>
+    <div class="main">
+        <div class="information">info box</div>
+        <div class="feed">feed</div>
+        <div class="friends">friends</div>
+    </div>
+</body>
+</html>
